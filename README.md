@@ -1,7 +1,7 @@
 # 프로토타입
 
 ## 적용 기능
-+ Swagger [스웨거 접속 경로](http://localhost:3000/swagger) [참고](https://velog.io/@inmyblue0930/NestJs-Swagger%EC%97%B0%EA%B2%B0-%EB%B3%B4%EC%95%88%EA%B4%80%EB%A6%AC)
++ Swagger [스웨거 접속 경로](http://localhost:3000/swagger), [참고](https://velog.io/@inmyblue0930/NestJs-Swagger%EC%97%B0%EA%B2%B0-%EB%B3%B4%EC%95%88%EA%B4%80%EB%A6%AC)
 + Typeorm [참고](https://develop-const.tistory.com/19)
 
 ## request 규칙
