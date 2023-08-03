@@ -33,3 +33,7 @@ exception filter를 사용해서 로그까지 처리할 수 있도록 할 예정
 [NestJS에서 로깅(logging)하기](https://www.daleseo.com/nestjs-logging/) <br>
 [NestJS Logger Middleware](https://velog.io/@seunghwa17/NestJS-Logger-Middleware) <br>
 [[NestJS] LOG에 요청 transation-id 추가하기](https://byul91oh.tistory.com/559) <br>
+
+## child router
+[nest-router](https://github.com/nestjsx/nest-router)
+@nestjs/core에 들어있어 따로 모듈 설치는 필요없고, 설정만 하면됨

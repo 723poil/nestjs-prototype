@@ -6,11 +6,19 @@ import { BooksModule } from './books/books.module';
 import { ConfigModule } from '@nestjs/config';
 import { MySqlConfigModule } from './config/database/config.module';
 import { MySqlConfigService } from './config/database/config.service';
-import { APP_FILTER } from '@nestjs/core';
+import { APP_FILTER, RouterModule, Routes } from '@nestjs/core';
 import { HttpExceptionFilter } from './http-exception/http-exception.filter';
+
+const routes: Routes = [
+  {
+    path: '/agent',
+    module: BooksModule
+  }
+]
 
 @Module({
   imports: [
+    RouterModule.register(routes),
     ConfigModule.forRoot({ isGlobal: true }),
     TypeOrmModule.forRootAsync({
       imports: [MySqlConfigModule],
