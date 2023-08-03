@@ -6,6 +6,8 @@ import { BooksModule } from './books/books.module';
 import { ConfigModule } from '@nestjs/config';
 import { MySqlConfigModule } from './config/database/config.module';
 import { MySqlConfigService } from './config/database/config.service';
+import { APP_FILTER } from '@nestjs/core';
+import { HttpExceptionFilter } from './http-exception/http-exception.filter';
 
 @Module({
   imports: [
@@ -18,6 +20,10 @@ import { MySqlConfigService } from './config/database/config.service';
     BooksModule
   ],
   controllers: [AppController],
-  providers: [AppService],
+  providers: [AppService, 
+    {
+    provide: APP_FILTER,
+    useClass: HttpExceptionFilter,
+  }],
 })
 export class AppModule {}

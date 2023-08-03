@@ -23,3 +23,13 @@ promise 처리보다는 예외처리시 좀 더 용이하다는 것 같음
 -> [[Back-end] Callback & async, await & Promise](https://velog.io/@bsu1209/Back-end-%EB%8F%99%EA%B8%B0-%EB%B9%84%EB%8F%99%EA%B8%B0)
 비동기로 처리하여 효율적인 자원관리가 가능하지만 동기 처리방식보다 복잡도가 올라갈것으로 보임
 기존의 promise방식보다 async & await를 통해 가독성을 높여 코드의 흐름을 이해하는데 원활함
+
+## 예외처리
+[nestjs 공식문서](https://docs.nestjs.com/exception-filters)
+[NestJS - Exception filter 설정](https://bitkunst.tistory.com/entry/NestJS-Exception-filter-%EC%84%A4%EC%A0%95)
+[NestJS Logger Middleware](https://velog.io/@seunghwa17/NestJS-Logger-Middleware)
+[[NestJS] LOG에 요청 transation-id 추가하기](https://byul91oh.tistory.com/559)
+exception filter를 사용해서 로그까지 처리할 수 있도록 할 예정
+
+## 로거 관련
+[NestJS에서 로깅(logging)하기](https://www.daleseo.com/nestjs-logging/)
