@@ -37,3 +37,13 @@ exception filter를 사용해서 로그까지 처리할 수 있도록 할 예정
 ## child router
 [nest-router](https://github.com/nestjsx/nest-router)
 @nestjs/core에 들어있어 따로 모듈 설치는 필요없고, 설정만 하면됨
+```
+.
+├── agent
+│   ├── store ...
+│   ├── brand ...
+│   └── ...
+├── ceo
+
+```
+이런식으로
