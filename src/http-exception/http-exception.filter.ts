@@ -32,7 +32,7 @@ export class HttpExceptionFilter implements ExceptionFilter {
             response.status(status)
                 .json({
                     success: false,
-                    timestamp: new Date().toISOString,
+                    timestamp: new Date().toISOString(),
                     ...error,
                 });
         }

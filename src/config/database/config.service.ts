@@ -15,7 +15,7 @@ export class MySqlConfigService implements TypeOrmOptionsFactory {
             host: this.configService.get<string>('DB_HOST'),
             database: this.configService.get<string>('DB_SCHEMA'),
             entities: ['dist/**/**/*.entity{.ts,.js}'],
-            synchronize: true,  // 개발 단계에서만 사용 -> 시간 지나면 지워야함
+            synchronize: false,  // 개발 단계에서만 사용 -> 시간 지나면 지워야함
             logging: true,
         }
     }

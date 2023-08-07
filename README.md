@@ -7,6 +7,10 @@
 + Typeorm <br>
     [NestJs 데이터베이스 연동하기 (mysql, typeorm)](https://develop-const.tistory.com/19)<br>
     [NestJS | 데이터베이스 연결, 설정 정보를 입력하는 다양한 방법... (database connection)](https://gaemi606.tistory.com/entry/NestJS-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4-%EC%97%B0%EA%B2%B0-%EC%84%A4%EC%A0%95-%EC%A0%95%EB%B3%B4%EB%A5%BC-%EC%9E%85%EB%A0%A5%ED%95%98%EB%8A%94-%EB%8B%A4%EC%96%91%ED%95%9C-%EB%B0%A9%EB%B2%95-database-connection) <br>
+    [TypeORM: How to Execute Raw SQL Queries](https://www.kindacode.com/snippet/typeorm-how-to-execute-raw-sql-queries/)
+    -> [mysql $1 error, use \`?\`](https://github.com/launchbadge/sqlx/issues/389) <br>
+    [CustomRepository decorator 만들기](https://greeng00se.tistory.com/57) <br>
+    [[TypeORM] QueryBuilder 사용시 return 타입 구체화하기](https://seungtaek-overflow.tistory.com/19)
 
 ## request 규칙
 Get이 아닌 API들이 request body를 사용할 경우 -> DTO 사용 <br>
@@ -47,3 +51,6 @@ exception filter를 사용해서 로그까지 처리할 수 있도록 할 예정
 
 ```
 이런식으로
+
+## DDD 관련
+[ET네 만물상 프로젝트 복기 - NestJS](https://velog.io/@jjunyjjuny/ET%EB%84%A4-%EB%A7%8C%EB%AC%BC%EC%83%81-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EB%B3%B5%EA%B8%B0-NestJS)
