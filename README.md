@@ -54,3 +54,6 @@ exception filter를 사용해서 로그까지 처리할 수 있도록 할 예정
 
 ## DDD 관련
 [ET네 만물상 프로젝트 복기 - NestJS](https://velog.io/@jjunyjjuny/ET%EB%84%A4-%EB%A7%8C%EB%AC%BC%EC%83%81-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EB%B3%B5%EA%B8%B0-NestJS)
+
+## message queue
+[Nestjs queue 실사용기 (feat. bull)](https://velog.io/@kimjiwonpg98/nestjs%EB%A1%9C-queue-%EC%82%AC%EC%9A%A9%ED%95%B4%EB%B3%B4%EA%B8%B0-feat.-bull)
