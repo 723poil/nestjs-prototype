@@ -2,7 +2,7 @@ import { Injectable } from '@nestjs/common';
 import { CreateBookDto } from './dto/create-book.dto';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Book } from './entities/book.entity';
-import { DataSource, EntityManager, Repository } from 'typeorm';
+import { DataSource, EntityManager } from 'typeorm';
 import { CreateBookResDto } from './dto/create-book-res.dto';
 import { TestDto } from './dto/test-dto';
 import { BookRepository } from './books.repository';
@@ -34,7 +34,7 @@ export class BooksService {
   async test(): Promise<TestDto> {
 
     
-    let book: TestDto = TestDto.of(
+    let book: TestDto = TestDto.toTestDto(
       await this.manager.query(
         'SELECT b.id, b.author, b.name FROM book b WHERE b.id = ?', 
         [ 1 ]

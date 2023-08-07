@@ -4,8 +4,8 @@ import { AppService } from './app.service';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { BooksModule } from './books/books.module';
 import { ConfigModule } from '@nestjs/config';
-import { MySqlConfigModule } from './config/database/config.module';
-import { MySqlConfigService } from './config/database/config.service';
+import { MySqlConfigModule } from './config/mysql-config/mysql-config.module';
+import { MySqlConfigService } from './config/mysql-config/mysql-config';
 import { APP_FILTER, RouterModule, Routes } from '@nestjs/core';
 import { HttpExceptionFilter } from './http-exception/http-exception.filter';
 

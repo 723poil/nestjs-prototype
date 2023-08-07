@@ -15,7 +15,7 @@ export class TestDto {
         this.name = name;
     }
 
-    static of([data]: [{id:number, author:string, name:string}]): TestDto {
+    static toTestDto([data]: [{id:number, author:string, name:string}]): TestDto {
         return new TestDto(data.id, data.author, data.name)
     }
 }
