@@ -36,8 +36,8 @@ export class BooksService {
     
     let book: TestDto = TestDto.toTestDto(
       await this.manager.query(
-        'SELECT b.id, b.author, b.name FROM book b WHERE b.id = ?', 
-        [ 1 ]
+        `SELECT b.id, b.author, b.name FROM book b WHERE b.id = ${1}`, 
+        // [ 1 ]
       )
     );
 
